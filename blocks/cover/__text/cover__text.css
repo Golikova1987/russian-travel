@@ -1,0 +1,29 @@
+.cover__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 245px 312px;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .cover__text {
+        padding: 195px 232px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .cover__text {
+        padding: 115px 104px;
+    }
+} 
+
+@media (max-width: 320px) {
+    .cover__text {
+        padding: 33px 16px;
+    }
+} 

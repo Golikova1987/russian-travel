@@ -1,0 +1,33 @@
+.footer__section {
+    max-width: 1184px;
+    min-height: 18px;
+    margin: 92px 48px 24px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .footer__section {
+       max-width: 928px;
+    }
+} 
+
+@media (max-width: 765px) {
+    .footer__section {
+       margin: 88px 24px 24px;
+       max-width: 720px;
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 32px;
+    }
+} 
+
+@media (max-width: 320px) {
+    .footer__section {
+       margin: 64px 0 24px 16px;
+       max-width: 186px;
+       min-height: 310px;
+    }
+} 
+

@@ -1,0 +1,30 @@
+.intro__section {
+    max-width: 690px;
+    min-height: 429px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin: 92px 0 0 148px;
+
+}
+
+@media (max-width: 1024px) {
+    .intro__section {
+        margin: 92px 0 0 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro__section {
+        margin: 88px 24px 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro__section {
+        margin: 64x 16px 0;
+    }
+}
+
+
+
+

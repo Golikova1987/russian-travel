@@ -1,0 +1,24 @@
+.places__section {
+    max-width: 984px;
+    min-width: 320px;
+    box-sizing: border-box;
+    margin: 92px 148px 0;
+}
+
+@media (max-width: 1024px) {
+    .places__section {
+        margin: 92px 48px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .places__section {
+        margin: 88px 24px 0;
+    }
+} 
+
+@media (max-width: 320px) {
+    .places__section {
+        margin: 64px 0 0;
+    }
+} 

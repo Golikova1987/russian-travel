@@ -1,0 +1,48 @@
+.cover__section {
+    max-width: 1184px;
+    min-width: 320px;
+    position: relative;
+    margin: 92px 48px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.cover__section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, 1);
+    opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
+    z-index: -1;
+}
+
+.cover__section:hover:before {
+    opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+    .cover__section {
+        margin: 92px 0 0;
+    }
+} 
+
+@media (max-width: 768px) {
+    .cover__section {
+        margin: 90px 0 0;
+    }
+} 
+
+@media (max-width: 320px) {
+    .cover__section {
+        margin: 66px 0 0;
+    }
+} 
+
+
