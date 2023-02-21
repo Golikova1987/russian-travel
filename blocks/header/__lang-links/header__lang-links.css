@@ -1,11 +1,17 @@
 .header__lang-links {
-    width: 77px;
-    height: 52px;
+    max-width: 77px;
     list-style: none;
     display: grid;
     margin: 0;
     padding: 0;
     grid-template-columns: 1fr 1fr;
     gap: 18px;
-    align-items: end;
+    align-self: center;
+    padding-top: 18px;
+}
+
+@media (max-width: 329px) {
+    .header__lang-links {
+        padding-top: 14px;
+    }
 }

@@ -4,9 +4,5 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
-}
-
-.intro__list:hover {
-    opacity: 0.4;
-    transition: 0.4s;
+    margin: 0;
 }
