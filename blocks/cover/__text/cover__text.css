@@ -16,9 +16,15 @@
     }
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 842px) {
     .cover__text {
         padding: 115px 104px;
+    }
+} 
+
+@media (max-width: 560px) {
+    .cover__text {
+        padding: 60px 25px;
     }
 } 
 

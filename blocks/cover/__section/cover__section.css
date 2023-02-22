@@ -1,7 +1,6 @@
 .cover__section {
     max-width: 1184px;
     min-height: 740px;
-    min-width: 320px;
     background-image: url(../../../images/__background\(1\).png);
     background-repeat: no-repeat;
     background-position: center;
@@ -40,20 +39,45 @@
     }
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 842px) {
     .cover__section {
         margin: 90px 0 0;
+        max-width: 842px;
+        min-height: 554px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .cover__section {
         max-width: 768px;
         min-height: 480px;
     }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
     .cover__section {
         margin: 66px 0 0;
+        max-width: 660px;
+        min-height: 413px;
+    }
+} 
+
+
+
+@media (max-width: 500px) {
+    .cover__section {
+        max-width: 500px;
+        min-height: 313px;
+    }
+} 
+
+@media (max-width: 320px) {
+    .cover__section {
         max-width: 320px;
         min-height: 200px;
     }
 } 
+
+
 
 
