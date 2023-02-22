@@ -10,15 +10,16 @@
     padding: 0;
 }
 
-@media (max-width: 1024px) {
-    .lead__section {
-        margin: 48px 48px 0;
-    }
-}
+@media (max-width: 1024px) { 
+    .lead__section { 
+        margin: 48px 48px 0; 
+    } 
+} 
 
-@media (max-width: 768px) {
-    .lead__section {
-        margin: 48px 0 0;
-    }
-}
+@media (max-width: 768px) { 
+    .lead__section { 
+        margin: 48px 0 0; 
+    } 
+} 
+
 
