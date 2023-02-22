@@ -18,17 +18,17 @@
 
 @media (max-width: 820px) {
     .lead__subtitle {
-        font-size: 30px; 
-        line-height: 36px; 
+        font-size: 30px;
+        line-height: 36px;
         margin: 0 64px 56px;
     }
 }
 
 @media (max-width: 629px) { 
     .lead__subtitle { 
-        font-size: 26px; 
-        line-height: 29px; 
-        margin: 0 16px 40px; 
+        font-size: 26px;
+        line-height: 29px;
+        margin: 0 16px 40px;
     } 
 } 
 
