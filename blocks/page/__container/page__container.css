@@ -12,7 +12,3 @@
     text-rendering: optimizeLegibility;
     box-sizing: border-box;
 }
-
-*, *:before, *:after {
-    outline: solid 1px red;
-}
